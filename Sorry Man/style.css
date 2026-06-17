@@ -249,7 +249,12 @@ transform:scale(1);
   align-items:center;
   gap:15px;
   margin:20px 0;
+
+  height:400px;
+  overflow-y:scroll;
 }
+.gallery::-webkit-scrollbar{
+    display:none;
 
 .gallery img{
   width:180px;
