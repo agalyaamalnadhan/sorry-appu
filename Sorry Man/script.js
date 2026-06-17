@@ -71,7 +71,7 @@ function startMusic(){
 mainAudio.play();
 
 }
-const startDate = new Date("2023-06-01");
+const startDate = new Date("2023-09-11");
 const today = new Date();
 
 const diff = Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
