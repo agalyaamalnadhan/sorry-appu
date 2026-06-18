@@ -3,12 +3,14 @@ margin:0;
 padding:0;
 background:#ffd6e7;
 font-family:Arial;
-overflow:hidden;
+overflow-x:hidden;
+overflow-y:auto;
 }
 .page{
 animation:fadeIn 1s;
 width:100%;
 height:100vh;
+overflow-y:auto;
 display:none;
 flex-direction:column;
 justify-content:center;
